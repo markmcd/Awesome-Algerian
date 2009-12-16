@@ -1,0 +1,1414 @@
+
+
+Processing ApplicationController#index (for 124.169.234.107 at 2009-12-16 04:59:17) [GET]
+
+
+NoMethodError (undefined method `scaffold' for BlogController:Class):
+    /app/controllers/blog_controller.rb:2
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:382:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:382:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:381:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:256:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:427:in `load_missing_constant'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:77:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:89:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/inflector.rb:352:in `constantize'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/inflector.rb:351:in `each'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/inflector.rb:351:in `constantize'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/string/inflections.rb:162:in `constantize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:388:in `recognize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:49:in `process_request'
+    /dh/passenger/lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/utils.rb:182:in `safe_fork'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:162:in `start'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/bin/passenger-spawn-server:61
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (25.9ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (10.4ms)
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing ApplicationController#index (for 124.169.234.107 at 2009-12-16 05:23:26) [GET]
+
+
+NoMethodError (undefined method `scaffold' for BlogController:Class):
+    /app/controllers/blog_controller.rb:2
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:382:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:382:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:381:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:256:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:427:in `load_missing_constant'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:77:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:89:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/inflector.rb:352:in `constantize'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/inflector.rb:351:in `each'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/inflector.rb:351:in `constantize'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/string/inflections.rb:162:in `constantize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:388:in `recognize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:49:in `process_request'
+    /dh/passenger/lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/utils.rb:182:in `safe_fork'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:162:in `start'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/bin/passenger-spawn-server:61
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (28.4ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (1.0ms)
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing BlogController#index (for 124.169.234.107 at 2009-12-16 05:38:47) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering blog/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://algerian.markm.cd/blog/]
+
+
+Processing BlogController#index (for 124.169.234.107 at 2009-12-16 05:39:44) [GET]
+  [4;35;1mSQL (3.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering blog/index
+Completed in 7ms (View: 1, DB: 4) | 200 OK [http://algerian.markm.cd/blog/]
+
+
+Processing BlogController#posts (for 124.169.234.107 at 2009-12-16 05:41:08) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+ActionController::UnknownAction (No action responded to posts. Actions: ):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:64:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:49:in `process_request'
+    /dh/passenger/lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/utils.rb:182:in `safe_fork'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:162:in `start'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/bin/passenger-spawn-server:61
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing BlogController#list (for 124.169.234.107 at 2009-12-16 05:41:12) [GET]
+  [4;35;1mSQL (2.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+ActionController::UnknownAction (No action responded to list. Actions: ):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:64:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:49:in `process_request'
+    /dh/passenger/lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/utils.rb:182:in `safe_fork'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:162:in `start'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/bin/passenger-spawn-server:61
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing BlogController#new (for 124.169.234.107 at 2009-12-16 05:41:14) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:64:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:49:in `process_request'
+    /dh/passenger/lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/utils.rb:182:in `safe_fork'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:162:in `start'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/bin/passenger-spawn-server:61
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing BlogController#index (for 124.169.234.107 at 2009-12-16 05:42:58) [GET]
+  [4;36;1mSQL (8.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering blog/index
+Completed in 167ms (View: 139, DB: 8) | 200 OK [http://algerian.markm.cd/blog/]
+
+
+Processing BlogController#index (for 124.169.234.107 at 2009-12-16 05:45:08) [GET]
+  [4;35;1mSQL (12.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering blog/index
+Completed in 14ms (View: 1, DB: 12) | 200 OK [http://algerian.markm.cd/blog/]
+
+
+Processing Rails::InfoController#properties (for 124.169.234.107 at 2009-12-16 05:49:25) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (25.2ms)[0m   [0mSHOW TABLES[0m
+Completed in 90ms (View: 1, DB: 26) | 200 OK [http://algerian.markm.cd/rails/info/properties]
+
+
+Processing BlogController#index (for 124.169.234.107 at 2009-12-16 05:51:22) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering blog/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://algerian.markm.cd/blog]
+
+
+Processing BlogController#index (for 124.169.234.107 at 2009-12-16 05:53:42) [GET]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:64:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:49:in `process_request'
+    /dh/passenger/lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/utils.rb:182:in `safe_fork'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:162:in `start'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/bin/passenger-spawn-server:61
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing BlogController#index (for 124.169.234.107 at 2009-12-16 05:53:46) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:64:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:49:in `process_request'
+    /dh/passenger/lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/utils.rb:182:in `safe_fork'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:162:in `start'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/bin/passenger-spawn-server:61
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing BlogController#list (for 124.169.234.107 at 2009-12-16 05:54:28) [GET]
+  [4;35;1mSQL (1.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+ActionController::UnknownAction (No action responded to list. Actions: ):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:64:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:49:in `process_request'
+    /dh/passenger/lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/utils.rb:182:in `safe_fork'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:162:in `start'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/bin/passenger-spawn-server:61
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (64.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (433.4ms)[0m   [0;1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (178.7ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePosts (20091216074946)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mMysql::Error: Table 'posts' already exists: CREATE TABLE `posts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+
+
+Processing PostsController#index (for 124.169.234.107 at 2009-12-16 05:55:43) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (6.0ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 41ms (View: 24, DB: 6) | 200 OK [http://algerian.markm.cd/posts]
+
+
+Processing PostsController#index (for 124.169.234.107 at 2009-12-16 05:55:49) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 13ms (View: 6, DB: 1) | 200 OK [http://algerian.markm.cd/posts]
+
+
+Processing PostsController#new (for 124.169.234.107 at 2009-12-16 05:55:55) [GET]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Columns (2.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/posts
+Rendering posts/new
+Completed in 32ms (View: 20, DB: 3) | 200 OK [http://algerian.markm.cd/posts/new]
+
+
+Processing PostsController#create (for 124.169.234.107 at 2009-12-16 05:56:01) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"07aee9c4491a09360e6bc7970a22f3e5cc9d54e8"}
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPost Create (0.0ms)[0m   [0mMysql::Error: Column 'title' cannot be null: INSERT INTO `posts` (`title`) VALUES(NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mROLLBACK[0m
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Column 'title' cannot be null: INSERT INTO `posts` (`title`) VALUES(NULL)):
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:309:in `execute'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:171:in `insert_sql'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:319:in `insert_sql'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:44:in `insert_without_query_dirty'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:18:in `insert'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:2733:in `create_without_callbacks'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/callbacks.rb:237:in `create_without_timestamps'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/timestamp.rb:29:in `create'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:2699:in `create_or_update_without_callbacks'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/callbacks.rb:222:in `create_or_update'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:2383:in `save_without_validation'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/validations.rb:1009:in `save_without_dirty'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/dirty.rb:79:in `save_without_transactions'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/transactions.rb:179:in `send'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/transactions.rb:179:in `with_transaction_returning_status'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:66:in `transaction'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/transactions.rb:129:in `transaction'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/transactions.rb:138:in `transaction'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/transactions.rb:178:in `with_transaction_returning_status'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/transactions.rb:146:in `save'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/transactions.rb:158:in `rollback_active_record_state!'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/transactions.rb:146:in `save'
+    /app/controllers/posts_controller.rb:46:in `create'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:106:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:106:in `respond_to'
+    /app/controllers/posts_controller.rb:45:in `create'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:64:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:49:in `process_request'
+    /dh/passenger/lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/utils.rb:182:in `safe_fork'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:162:in `start'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/bin/passenger-spawn-server:61
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (99.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (12.3ms)
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+  [4;36;1mSQL (4.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (6.8ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (283.3ms)[0m   [0;1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (329.0ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (4.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePosts (20091216074946)
+  [4;36;1mSQL (126.8ms)[0m   [0;1mCREATE TABLE `posts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20091216074946')[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mdescribe `posts`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW KEYS FROM `posts`[0m
+
+
+Processing PostsController#index (for 124.169.234.107 at 2009-12-16 06:10:37) [GET]
+  [4;36;1mSQL (2.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (135.8ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 369ms (View: 72, DB: 138) | 200 OK [http://algerian.markm.cd/posts]
+
+
+Processing ApplicationController#index (for 124.169.234.107 at 2009-12-16 06:16:09) [GET]
+
+
+ActionController::RoutingError (No route matches "/images/sexysummarsandals.jpg" with {:method=>:get}):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:49:in `process_request'
+    /dh/passenger/lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/utils.rb:182:in `safe_fork'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:162:in `start'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/bin/passenger-spawn-server:61
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing PostsController#new (for 124.169.234.107 at 2009-12-16 06:16:34) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/posts
+Rendering posts/new
+
+
+ActionView::TemplateError (undefined method `title' for #<Post id: nil, created_at: nil, updated_at: nil>) on line #8 of app/views/posts/new.html.erb:
+5: 
+6:   <p>
+7:     <%= f.label :title %><br />
+8:     <%= f.text_field :title %>
+9:   </p>
+10:   <p>
+11:     <%= f.label :description %><br />
+
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/attribute_methods.rb:260:in `method_missing'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/helpers/form_helper.rb:653:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/helpers/form_helper.rb:653:in `value_before_type_cast'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/helpers/form_helper.rb:641:in `value_before_type_cast'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/helpers/form_helper.rb:560:in `to_input_field_tag'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/helpers/form_helper.rb:354:in `text_field'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/helpers/form_helper.rb:745:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/helpers/form_helper.rb:745:in `text_field'
+    app/views/posts/new.html.erb:8
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/helpers/form_helper.rb:313:in `fields_for'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/helpers/form_helper.rb:253:in `form_for'
+    app/views/posts/new.html.erb:3
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:39:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:39:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/template.rb:73:in `render_template'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:256:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:367:in `_render_with_layout'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:254:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1174:in `render_for_file'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:905:in `render_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:135:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:135:in `custom'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:164:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:164:in `respond'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:158:in `respond'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    app/controllers/posts_controller.rb:29:in `new'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:64:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:49:in `process_request'
+    /dh/passenger/lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/utils.rb:182:in `safe_fork'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:162:in `start'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/bin/passenger-spawn-server:61
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (102.2ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (2.3ms)
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing PostsController#index (for 124.169.234.107 at 2009-12-16 06:20:50) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+Completed in 92ms (View: 18, DB: 1) | 200 OK [http://algerian.markm.cd/posts]
+
+
+Processing PostsController#new (for 124.169.234.107 at 2009-12-16 06:20:56) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/posts
+Rendering posts/new
+
+
+ActionView::TemplateError (undefined method `title' for #<Post id: nil, created_at: nil, updated_at: nil>) on line #8 of app/views/posts/new.html.erb:
+5: 
+6:   <p>
+7:     <%= f.label :title %><br />
+8:     <%= f.text_field :title %>
+9:   </p>
+10:   <p>
+11:     <%= f.label :description %><br />
+
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/attribute_methods.rb:260:in `method_missing'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/helpers/form_helper.rb:653:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/helpers/form_helper.rb:653:in `value_before_type_cast'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/helpers/form_helper.rb:641:in `value_before_type_cast'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/helpers/form_helper.rb:560:in `to_input_field_tag'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/helpers/form_helper.rb:354:in `text_field'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/helpers/form_helper.rb:745:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/helpers/form_helper.rb:745:in `text_field'
+    app/views/posts/new.html.erb:8
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/helpers/form_helper.rb:313:in `fields_for'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/helpers/form_helper.rb:253:in `form_for'
+    app/views/posts/new.html.erb:3
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:39:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:39:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/template.rb:73:in `render_template'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:256:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:367:in `_render_with_layout'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:254:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1174:in `render_for_file'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:905:in `render_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:135:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:135:in `custom'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:164:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:164:in `respond'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:158:in `respond'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    app/controllers/posts_controller.rb:29:in `new'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:64:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:49:in `process_request'
+    /dh/passenger/lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/utils.rb:182:in `safe_fork'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:162:in `start'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/bin/passenger-spawn-server:61
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (349.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (0.9ms)
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+  [4;36;1mSQL (1.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (10.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreatePosts (20091216142039)
+  [4;35;1mSQL (0.0ms)[0m   [0mMysql::Error: Table 'posts' already exists: CREATE TABLE `posts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` varchar(255), `description` text, `image_url` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (280.4ms)[0m   [0;1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (319.2ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (2.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePosts (20091216142039)
+  [4;36;1mSQL (162.9ms)[0m   [0;1mCREATE TABLE `posts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` varchar(255), `description` text, `image_url` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (3.5ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20091216142039')[0m
+  [4;36;1mSQL (1.8ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mdescribe `posts`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW KEYS FROM `posts`[0m
+
+
+Processing PostsController#new (for 124.169.234.107 at 2009-12-16 06:24:46) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/posts
+Rendering posts/new
+Completed in 18ms (View: 9, DB: 2) | 200 OK [http://algerian.markm.cd/posts/new]
+
+
+Processing PostsController#create (for 124.169.234.107 at 2009-12-16 06:25:12) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"07aee9c4491a09360e6bc7970a22f3e5cc9d54e8", "post"=>{"image_url"=>"http://algerian.markm.cd/images/sexysummersandals.jpg", "title"=>"Sexy Summer Sandals", "description"=>"(via @dos4gw)"}}
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Columns (4.1ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPost Create (1.6ms)[0m   [0mINSERT INTO `posts` (`image_url`, `updated_at`, `title`, `description`, `created_at`) VALUES('http://algerian.markm.cd/images/sexysummersandals.jpg', '2009-12-16 14:25:12', 'Sexy Summer Sandals', '(via @dos4gw)', '2009-12-16 14:25:12')[0m
+  [4;36;1mSQL (232.6ms)[0m   [0;1mCOMMIT[0m
+Redirected to #<Post:0xe5951ba0>
+Completed in 264ms (DB: 240) | 302 Found [http://algerian.markm.cd/posts]
+
+
+Processing PostsController#show (for 124.169.234.107 at 2009-12-16 06:25:13) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Completed in 18ms (View: 8, DB: 2) | 200 OK [http://algerian.markm.cd/posts/1]
+
+
+Processing PostsController#show (for 124.169.234.107 at 2009-12-16 06:25:18) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Completed in 23ms (View: 14, DB: 2) | 200 OK [http://algerian.markm.cd/posts/1]
+
+
+Processing PostsController#index (for 124.169.234.107 at 2009-12-16 06:25:19) [GET]
+  [4;35;1mSQL (15.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (18.1ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (10.1ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 64ms (View: 19, DB: 44) | 200 OK [http://algerian.markm.cd/posts]
+
+
+Processing PostsController#index (for 124.169.234.107 at 2009-12-16 06:27:50) [GET]
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (4.8ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 233ms (View: 129, DB: 7) | 200 OK [http://algerian.markm.cd/posts]
+
+
+Processing PostsController#new (for 124.169.234.107 at 2009-12-16 06:27:52) [GET]
+  [4;35;1mSQL (2.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/posts
+Rendering posts/new
+Completed in 21ms (View: 10, DB: 5) | 200 OK [http://algerian.markm.cd/posts/new]
+
+
+Processing PostsController#create (for 124.169.234.107 at 2009-12-16 06:27:57) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"07aee9c4491a09360e6bc7970a22f3e5cc9d54e8", "post"=>{"image_url"=>"", "title"=>"wut", "description"=>"yeah"}}
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+LoadError (Expected /home/.jockey/thedji/algerian/app/models/post.rb to define Post):
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:428:in `load_missing_constant'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:77:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:89:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:439:in `load_missing_constant'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:93:in `const_missing'
+    /app/controllers/posts_controller.rb:43:in `create'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:64:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:49:in `process_request'
+    /dh/passenger/lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/utils.rb:182:in `safe_fork'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:162:in `start'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/bin/passenger-spawn-server:61
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (111.2ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (0.9ms)
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing PostsController#create (for 124.169.234.107 at 2009-12-16 06:31:09) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"07aee9c4491a09360e6bc7970a22f3e5cc9d54e8", "post"=>{"image_url"=>"", "title"=>"wut", "description"=>"yeah"}}
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (72.8ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mPost Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mSQL (4.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mPost Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+
+
+NoMethodError (undefined method `validate_presence_of' for #<Class:0xe59f0818>):
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1833:in `method_missing'
+    /app/models/post.rb:2
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:382:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:382:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:381:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:256:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:427:in `load_missing_constant'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:77:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:89:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:95:in `send'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:95:in `const_missing'
+    /app/controllers/posts_controller.rb:43:in `create'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:64:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:49:in `process_request'
+    /dh/passenger/lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/utils.rb:182:in `safe_fork'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:162:in `start'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/bin/passenger-spawn-server:61
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (86.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (1.0ms)
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing PostsController#create (for 124.169.234.107 at 2009-12-16 06:31:24) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"07aee9c4491a09360e6bc7970a22f3e5cc9d54e8", "post"=>{"image_url"=>"", "title"=>"wut", "description"=>"yeah"}}
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+LoadError (Expected /home/.jockey/thedji/algerian/app/models/post.rb to define Post):
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:428:in `load_missing_constant'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:77:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:89:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:439:in `load_missing_constant'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:93:in `const_missing'
+    /app/controllers/posts_controller.rb:43:in `create'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:64:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:49:in `process_request'
+    /dh/passenger/lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/utils.rb:182:in `safe_fork'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:162:in `start'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/bin/passenger-spawn-server:61
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (1277.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (1.5ms)
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing PostsController#index (for 124.169.234.107 at 2009-12-16 06:31:38) [GET]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (3.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 30ms (View: 16, DB: 4) | 200 OK [http://algerian.markm.cd/posts]
+
+
+Processing PostsController#create (for 124.169.234.107 at 2009-12-16 06:31:45) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"07aee9c4491a09360e6bc7970a22f3e5cc9d54e8", "post"=>{"image_url"=>"", "title"=>"wut", "description"=>"yeah"}}
+  [4;35;1mSQL (2.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Columns (4.1ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mROLLBACK[0m
+Rendering template within layouts/posts
+Rendering posts/new
+Completed in 29ms (View: 10, DB: 8) | 200 OK [http://algerian.markm.cd/posts]
+
+
+Processing PostsController#create (for 124.169.234.107 at 2009-12-16 06:31:51) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"07aee9c4491a09360e6bc7970a22f3e5cc9d54e8", "post"=>{"image_url"=>"", "title"=>"", "description"=>"yeah"}}
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (2.9ms)[0m   [0;1mROLLBACK[0m
+Rendering template within layouts/posts
+Rendering posts/new
+Completed in 56ms (View: 34, DB: 5) | 200 OK [http://algerian.markm.cd/posts]
+
+
+Processing PostsController#index (for 124.169.234.107 at 2009-12-16 06:31:57) [GET]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 20ms (View: 9, DB: 3) | 200 OK [http://algerian.markm.cd/posts]
+
+
+Processing PostsController#index (for 124.169.234.107 at 2009-12-16 06:41:09) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 47ms (View: 10, DB: 2) | 200 OK [http://algerian.markm.cd/posts]
+
+
+Processing PostsController#index (for 124.169.234.107 at 2009-12-16 06:41:53) [GET]
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+ERROR: compiling _run_erb_app47views47posts47index46html46erb RAISED compile error
+/home/.jockey/thedji/algerian/app/views/posts/index.html.erb:7: syntax error, unexpected ')'
+@output_buffer.concat "    <p>"; @output_buffer.concat((h post.description =).to_s); @output_buffer.concat "</p>\n"
+                                                                             ^
+Function body:           def _run_erb_app47views47posts47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Awesome Algerian</h1>\n"
+@output_buffer.concat "\n"
+ for post in @posts.reverse ; @output_buffer.concat "\n"
+@output_buffer.concat "<div>\n"
+@output_buffer.concat "    <h2>"; @output_buffer.concat((h post.title ).to_s); @output_buffer.concat "</h2>\n"
+@output_buffer.concat "    <img src=\""; @output_buffer.concat((h post.image_url ).to_s); @output_buffer.concat "\" />\n"
+@output_buffer.concat "    <p>"; @output_buffer.concat((h post.description =).to_s); @output_buffer.concat "</p>\n"
+@output_buffer.concat "    <p>\n"
+@output_buffer.concat "        "; @output_buffer.concat(( link_to 'Show', post ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "        "; @output_buffer.concat(( link_to 'Edit', edit_post_path(post) ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "        "; @output_buffer.concat(( link_to 'Delete', post, :confirm => 'Are you sure?', :method => :delete ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "    </p>\n"
+@output_buffer.concat "</div>\n"
+ end ; @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<br />\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( link_to 'New post', new_post_path ).to_s); @output_buffer.concat "\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/.jockey/thedji/algerian/app/views/posts/index.html.erb:22:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:66:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:64:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:64:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:26:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/template.rb:73:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:256:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:367:in `_render_with_layout'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:254:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1174:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:905:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:135:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:135:in `custom'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:164:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:164:in `respond'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:158:in `respond'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/home/.jockey/thedji/algerian/app/controllers/posts_controller.rb:7:in `index'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+/dh/passenger/lib/phusion_passenger/railz/request_handler.rb:64:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+/dh/passenger/lib/phusion_passenger/railz/request_handler.rb:49:in `process_request'
+/dh/passenger/lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+/dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+/dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+/dh/passenger/lib/phusion_passenger/utils.rb:182:in `safe_fork'
+/dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+/dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+/dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+/dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+/dh/passenger/lib/phusion_passenger/abstract_server.rb:162:in `start'
+/dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+/dh/passenger/lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+/dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+/dh/passenger/lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+/dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+/dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+/dh/passenger/lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+/dh/passenger/lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+/dh/passenger/lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+/dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+/dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+/dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+/dh/passenger/bin/passenger-spawn-server:61
+
+
+ActionView::TemplateError (compile error
+/home/.jockey/thedji/algerian/app/views/posts/index.html.erb:7: syntax error, unexpected ')'
+@output_buffer.concat "    <p>"; @output_buffer.concat((h post.description =).to_s); @output_buffer.concat "</p>\n"
+                                                                             ^) on line #7 of app/views/posts/index.html.erb:
+4: <div>
+5:     <h2><%=h post.title %></h2>
+6:     <img src="<%=h post.image_url %>" />
+7:     <p><%=h post.description =%></p>
+8:     <p>
+9:         <%= link_to 'Show', post %>
+10:         <%= link_to 'Edit', edit_post_path(post) %>
+
+    app/views/posts/index.html.erb:22:in `compile!'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:66:in `compile'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:64:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:64:in `compile'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:26:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/template.rb:73:in `render_template'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:256:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:367:in `_render_with_layout'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:254:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1174:in `render_for_file'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:905:in `render_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:135:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:135:in `custom'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:164:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:164:in `respond'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:158:in `respond'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    app/controllers/posts_controller.rb:7:in `index'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:64:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:49:in `process_request'
+    /dh/passenger/lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/utils.rb:182:in `safe_fork'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:162:in `start'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/bin/passenger-spawn-server:61
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (268.3ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (0.9ms)
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing PostsController#index (for 124.169.234.107 at 2009-12-16 06:42:33) [GET]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 31ms (View: 19, DB: 2) | 200 OK [http://algerian.markm.cd/posts]
