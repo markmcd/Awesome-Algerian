@@ -1855,3 +1855,852 @@ Processing PostsController#show (for 203.59.130.32 at 2009-12-16 19:42:48) [GET]
 Rendering template within layouts/posts
 Rendering posts/show
 Completed in 29ms (View: 11, DB: 6) | 200 OK [http://algerian.markm.cd/posts/1]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 19:52:13) [GET]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (1.6ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (3.9ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 24ms (View: 10, DB: 6) | 200 OK [http://algerian.markm.cd/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 19:53:46) [GET]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 18ms (View: 9, DB: 2) | 200 OK [http://algerian.markm.cd/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 19:54:19) [GET]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 18ms (View: 9, DB: 2) | 200 OK [http://algerian.markm.cd/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 19:54:28) [GET]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 19ms (View: 9, DB: 2) | 200 OK [http://algerian.markm.cd/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 19:54:37) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 20ms (View: 11, DB: 2) | 200 OK [http://algerian.markm.cd/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 19:55:13) [GET]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (1.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (2.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 50ms (View: 13, DB: 4) | 200 OK [http://algerian.markm.cd/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 19:56:04) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 18ms (View: 9, DB: 2) | 200 OK [http://algerian.markm.cd/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 19:56:09) [GET]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 17ms (View: 8, DB: 2) | 200 OK [http://algerian.markm.cd/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 19:58:13) [GET]
+  [4;36;1mSQL (2.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (4.9ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 145ms (View: 64, DB: 8) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 19:59:56) [GET]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.9ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (3.1ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 28ms (View: 12, DB: 4) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 20:00:39) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 27ms (View: 16, DB: 2) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 20:00:44) [GET]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 19ms (View: 10, DB: 2) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 20:00:48) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 20ms (View: 12, DB: 2) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#edit (for 203.59.130.32 at 2009-12-16 20:00:57) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (8.3ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/edit
+Completed in 89ms (View: 39, DB: 11) | 200 OK [http://www.awesomealgerian.com/posts/1/edit]
+
+
+Processing PostsController#update (for 203.59.130.32 at 2009-12-16 20:01:03) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"499318206e5fef96db587bb5066ddaea5530da60", "post"=>{"image_url"=>"/images/sexysummersandals.jpg", "title"=>"Sexy Summer Sandals", "description"=>"(via @dos4gw)"}, "id"=>"1"}
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Columns (11.2ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.7ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+  [4;35;1mSQL (8.9ms)[0m   [0mBEGIN[0m
+  [4;36;1mPost Update (4.9ms)[0m   [0;1mUPDATE `posts` SET `updated_at` = '2009-12-17 04:01:03', `image_url` = '/images/sexysummersandals.jpg' WHERE `id` = 1[0m
+  [4;35;1mSQL (138.3ms)[0m   [0mCOMMIT[0m
+Redirected to #<Post:0xdbca4fdc>
+Completed in 176ms (DB: 164) | 302 Found [http://www.awesomealgerian.com/posts/1]
+
+
+Processing PostsController#show (for 203.59.130.32 at 2009-12-16 20:01:03) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Completed in 20ms (View: 8, DB: 2) | 200 OK [http://www.awesomealgerian.com/posts/1]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 20:01:10) [GET]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.9ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 19ms (View: 9, DB: 3) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 20:01:58) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 39ms (View: 11, DB: 2) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 20:01:58) [GET]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 18ms (View: 9, DB: 2) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 20:03:30) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 19ms (View: 10, DB: 2) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 20:03:40) [GET]
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 18ms (View: 9, DB: 3) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 21:48:22) [GET]
+  [4;36;1mSQL (5.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (6.3ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (3.2ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 158ms (View: 50, DB: 15) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 21:48:39) [GET]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 19ms (View: 9, DB: 2) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#new (for 203.59.130.32 at 2009-12-16 21:50:36) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/posts
+Rendering posts/new
+Completed in 30ms (View: 21, DB: 2) | 200 OK [http://www.awesomealgerian.com/posts/new]
+
+
+Processing PostsController#create (for 203.59.130.32 at 2009-12-16 21:56:57) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"e23d70a9ce5be923d70ae5ac3cd1fffe5471c265", "post"=>{"image_url"=>"http://members.iinet.net.au/~dos4gw/img/al_delany.jpg", "title"=>"Hotel Delany", "description"=>"what a gem, sydney. "}}
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPost Create (1.0ms)[0m   [0mINSERT INTO `posts` (`image_url`, `updated_at`, `title`, `description`, `created_at`) VALUES('http://members.iinet.net.au/~dos4gw/img/al_delany.jpg', '2009-12-17 05:56:57', 'Hotel Delany', 'what a gem, sydney. ', '2009-12-17 05:56:57')[0m
+  [4;36;1mSQL (48.4ms)[0m   [0;1mCOMMIT[0m
+Redirected to #<Post:0xe61d95fc>
+Completed in 62ms (DB: 51) | 302 Found [http://www.awesomealgerian.com/posts]
+
+
+Processing PostsController#show (for 203.59.130.32 at 2009-12-16 21:56:58) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 2) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Completed in 62ms (View: 46, DB: 2) | 200 OK [http://www.awesomealgerian.com/posts/2]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 21:57:06) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 21ms (View: 13, DB: 2) | 200 OK [http://www.awesomealgerian.com/posts]
+
+
+Processing PostsController#new (for 203.59.130.32 at 2009-12-16 21:57:17) [GET]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/posts
+Rendering posts/new
+Completed in 18ms (View: 9, DB: 2) | 200 OK [http://www.awesomealgerian.com/posts/new]
+
+
+Processing PostsController#create (for 203.59.130.32 at 2009-12-16 21:57:37) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"e23d70a9ce5be923d70ae5ac3cd1fffe5471c265", "post"=>{"image_url"=>"http://members.iinet.net.au/~dos4gw/img/al_kelly.jpg", "title"=>"Kelly", "description"=>"Look close."}}
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mBEGIN[0m
+  [4;36;1mPost Create (1.2ms)[0m   [0;1mINSERT INTO `posts` (`image_url`, `updated_at`, `title`, `description`, `created_at`) VALUES('http://members.iinet.net.au/~dos4gw/img/al_kelly.jpg', '2009-12-17 05:57:37', 'Kelly', 'Look close.', '2009-12-17 05:57:37')[0m
+  [4;35;1mSQL (54.5ms)[0m   [0mCOMMIT[0m
+Redirected to #<Post:0xe5f82240>
+Completed in 69ms (DB: 58) | 302 Found [http://www.awesomealgerian.com/posts]
+
+
+Processing PostsController#show (for 203.59.130.32 at 2009-12-16 21:57:37) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.7ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 3) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Completed in 17ms (View: 8, DB: 2) | 200 OK [http://www.awesomealgerian.com/posts/3]
+
+
+Processing PostsController#edit (for 203.59.130.32 at 2009-12-16 21:57:43) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 3) [0m
+Rendering template within layouts/posts
+Rendering posts/edit
+Completed in 35ms (View: 27, DB: 2) | 200 OK [http://www.awesomealgerian.com/posts/3/edit]
+
+
+Processing PostsController#update (for 203.59.130.32 at 2009-12-16 21:57:53) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"e23d70a9ce5be923d70ae5ac3cd1fffe5471c265", "post"=>{"image_url"=>"http://members.iinet.net.au/~dos4gw/img/al_kelly.jpg", "title"=>"Kelly's", "description"=>"Look close."}, "id"=>"3"}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 3) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mBEGIN[0m
+  [4;36;1mPost Update (0.7ms)[0m   [0;1mUPDATE `posts` SET `title` = 'Kelly\'s', `updated_at` = '2009-12-17 05:57:53' WHERE `id` = 3[0m
+  [4;35;1mSQL (36.2ms)[0m   [0mCOMMIT[0m
+Redirected to #<Post:0xe5e4fd3c>
+Completed in 113ms (DB: 39) | 302 Found [http://www.awesomealgerian.com/posts/3]
+
+
+Processing PostsController#show (for 203.59.130.32 at 2009-12-16 21:57:54) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (2.2ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 3) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Completed in 42ms (View: 21, DB: 5) | 200 OK [http://www.awesomealgerian.com/posts/3]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 21:58:00) [GET]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 51ms (View: 42, DB: 2) | 200 OK [http://www.awesomealgerian.com/posts]
+
+
+Processing PostsController#new (for 203.59.130.32 at 2009-12-16 21:58:09) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/posts
+Rendering posts/new
+Completed in 18ms (View: 9, DB: 1) | 200 OK [http://www.awesomealgerian.com/posts/new]
+
+
+Processing PostsController#create (for 203.59.130.32 at 2009-12-16 21:58:35) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"e23d70a9ce5be923d70ae5ac3cd1fffe5471c265", "post"=>{"image_url"=>"http://members.iinet.net.au/~dos4gw/img/al_susp.jpg", "title"=>"Suspected Algerian sighting", "description"=>"what do we think?"}}
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPost Create (1.1ms)[0m   [0mINSERT INTO `posts` (`image_url`, `updated_at`, `title`, `description`, `created_at`) VALUES('http://members.iinet.net.au/~dos4gw/img/al_susp.jpg', '2009-12-17 05:58:35', 'Suspected Algerian sighting', 'what do we think?', '2009-12-17 05:58:35')[0m
+  [4;36;1mSQL (110.9ms)[0m   [0;1mCOMMIT[0m
+Redirected to #<Post:0xe613a830>
+Completed in 125ms (DB: 114) | 302 Found [http://www.awesomealgerian.com/posts]
+
+
+Processing PostsController#show (for 203.59.130.32 at 2009-12-16 21:58:36) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 4) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Completed in 17ms (View: 8, DB: 2) | 200 OK [http://www.awesomealgerian.com/posts/4]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 21:58:46) [GET]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.7ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 21ms (View: 12, DB: 2) | 200 OK [http://www.awesomealgerian.com/posts]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 21:58:49) [GET]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 24ms (View: 14, DB: 2) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 22:10:23) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 23ms (View: 13, DB: 3) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 22:11:50) [GET]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 24ms (View: 15, DB: 2) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 22:12:30) [GET]
+  [4;36;1mSQL (6.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (8.8ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (10.1ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 117ms (View: 30, DB: 26) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 22:13:24) [GET]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 21ms (View: 12, DB: 2) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 22:15:16) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 20ms (View: 11, DB: 2) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 22:15:55) [GET]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (2.1ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 23ms (View: 12, DB: 4) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 22:22:58) [GET]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 52ms (View: 22, DB: 2) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#new (for 203.59.130.32 at 2009-12-16 22:23:26) [GET]
+  [4;35;1mSQL (6.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Columns (6.9ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/posts
+Rendering posts/new
+Completed in 29ms (View: 10, DB: 13) | 200 OK [http://www.awesomealgerian.com/posts/new]
+
+
+Processing PostsController#edit (for 203.59.130.32 at 2009-12-16 22:24:05) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mSQL (0.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 4) [0m
+Rendering template within layouts/posts
+Rendering posts/edit
+Completed in 31ms (View: 18, DB: 2) | 200 OK [http://www.awesomealgerian.com/posts/4/edit]
+
+
+Processing PostsController#edit (for 203.59.130.32 at 2009-12-16 22:24:11) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 5) [0m
+
+
+ActiveRecord::RecordNotFound (Couldn't find Post with ID=5):
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1528:in `find_one'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1511:in `find_from_ids'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:590:in `find'
+    /app/controllers/posts_controller.rb:37:in `edit'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:64:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:49:in `process_request'
+    /dh/passenger/lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/utils.rb:182:in `safe_fork'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:162:in `start'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/bin/passenger-spawn-server:61
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (23.9ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (23.0ms)
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing PostsController#new (for 203.59.130.32 at 2009-12-16 22:24:17) [GET]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/posts
+Rendering posts/new
+Completed in 114ms (View: 32, DB: 2) | 200 OK [http://www.awesomealgerian.com/posts/new]
+
+
+Processing PostsController#create (for 203.59.130.32 at 2009-12-16 22:24:23) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"0cf647664830db7d461d1fb8b82823aec67a6b94", "post"=>{"image_url"=>"", "title"=>"meta", "description"=>""}}
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mSQL (5.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mROLLBACK[0m
+Rendering template within layouts/posts
+Rendering posts/new
+Completed in 83ms (View: 9, DB: 8) | 200 OK [http://www.awesomealgerian.com/posts]
+
+
+Processing PostsController#create (for 203.59.130.32 at 2009-12-16 22:24:45) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"0cf647664830db7d461d1fb8b82823aec67a6b94", "post"=>{"image_url"=>"http://www.natoschool.nato.int/internet_multimedia/multimedia_news_archives/Algeria_METT/Algerian%20flag.gif", "title"=>"meta", "description"=>""}}
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mPost Create (1.1ms)[0m   [0;1mINSERT INTO `posts` (`image_url`, `updated_at`, `title`, `description`, `created_at`) VALUES('http://www.natoschool.nato.int/internet_multimedia/multimedia_news_archives/Algeria_METT/Algerian%20flag.gif', '2009-12-17 06:24:45', 'meta', '', '2009-12-17 06:24:45')[0m
+  [4;35;1mSQL (136.7ms)[0m   [0mCOMMIT[0m
+Redirected to #<Post:0xe61b9644>
+Completed in 155ms (DB: 141) | 302 Found [http://www.awesomealgerian.com/posts]
+
+
+Processing PostsController#show (for 203.59.130.32 at 2009-12-16 22:24:46) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Columns (3.8ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 5) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Completed in 34ms (View: 12, DB: 5) | 200 OK [http://www.awesomealgerian.com/posts/5]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 22:24:51) [GET]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.7ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 21ms (View: 12, DB: 2) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 22:25:27) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 31ms (View: 22, DB: 3) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 22:25:31) [GET]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 21ms (View: 12, DB: 2) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 22:27:00) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.7ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 21ms (View: 12, DB: 2) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 22:27:06) [GET]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (9.2ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (6.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 34ms (View: 12, DB: 16) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 22:27:12) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (1.6ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 25ms (View: 13, DB: 5) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 22:27:17) [GET]
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (2.1ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 23ms (View: 12, DB: 4) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#show (for 203.59.130.32 at 2009-12-16 22:27:45) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (1.5ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 5) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Completed in 45ms (View: 14, DB: 5) | 200 OK [http://www.awesomealgerian.com/posts/5]
+
+
+Processing PostsController#show (for 203.59.130.32 at 2009-12-16 22:27:51) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 5) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Completed in 17ms (View: 7, DB: 2) | 200 OK [http://www.awesomealgerian.com/posts/5]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 22:28:00) [GET]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 27ms (View: 16, DB: 2) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#show (for 203.59.130.32 at 2009-12-16 22:28:10) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 5) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Completed in 17ms (View: 8, DB: 2) | 200 OK [http://www.awesomealgerian.com/posts/5]
+
+
+Processing PostsController#show (for 203.59.130.32 at 2009-12-16 22:28:10) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 5) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Completed in 17ms (View: 8, DB: 2) | 200 OK [http://www.awesomealgerian.com/posts/5]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 22:28:14) [GET]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 21ms (View: 12, DB: 3) | 200 OK [http://www.awesomealgerian.com/posts]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 22:33:53) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 22ms (View: 12, DB: 2) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 22:34:15) [GET]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (21.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 52ms (View: 13, DB: 22) | 200 OK [http://www.awesomealgerian.com/posts]
+
+
+Processing ApplicationController#index (for 203.59.130.32 at 2009-12-16 22:34:15) [GET]
+
+
+ActionController::RoutingError (No route matches "/public/favicon.ico" with {:method=>:get}):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:49:in `process_request'
+    /dh/passenger/lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/utils.rb:182:in `safe_fork'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:162:in `start'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/bin/passenger-spawn-server:61
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 22:34:17) [GET]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 25ms (View: 13, DB: 3) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing ApplicationController#index (for 203.59.130.32 at 2009-12-16 22:34:18) [GET]
+
+
+ActionController::RoutingError (No route matches "/public/favicon.ico" with {:method=>:get}):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:49:in `process_request'
+    /dh/passenger/lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/utils.rb:182:in `safe_fork'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:162:in `start'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/bin/passenger-spawn-server:61
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 203.59.130.32 at 2009-12-16 22:34:18) [GET]
+
+
+ActionController::RoutingError (No route matches "/public/favicon.ico" with {:method=>:get}):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /dh/passenger/lib/phusion_passenger/railz/request_handler.rb:49:in `process_request'
+    /dh/passenger/lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/utils.rb:182:in `safe_fork'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:162:in `start'
+    /dh/passenger/lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    /dh/passenger/lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /dh/passenger/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /dh/passenger/bin/passenger-spawn-server:61
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 22:34:21) [GET]
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 26ms (View: 17, DB: 3) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 22:34:33) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (2.3ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 29ms (View: 15, DB: 4) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-16 22:34:47) [GET]
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 24ms (View: 15, DB: 2) | 200 OK [http://www.awesomealgerian.com/]

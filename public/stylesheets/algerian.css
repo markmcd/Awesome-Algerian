@@ -81,6 +81,8 @@ h1	{
 	height:100px;
 	margin-bottom: 20px;
     font-size: 0px;
+    color: #f4f8ff;
+    float: right;
 }
 
 h2	{
@@ -88,7 +90,6 @@ h2	{
 	color: #5d9fff;
 	width: 100%;
 	border-bottom: 2px solid #fff;
-	border-top: 2px solid #fff;
 	padding: 10px 0 10px 0;
 	margin: 0 0 10px 0;
 }
@@ -98,5 +99,6 @@ h2	{
 img	{
 	border: 2px solid #fff;
 	margin: 0 auto;
+    max-width: 795px;
 }
 
