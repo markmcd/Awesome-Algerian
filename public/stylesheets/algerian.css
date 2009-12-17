@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { 
+	background-color: #c5ddff; 
+	color: #333; 
+	background-image: url(/images/bg.png);
+	background-position:25px 25px;
+	background-repeat:repeat-y;
+}
+
+body, p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size:   13px;
+  line-height: 18px;
+}
+
+h1,h2,h3,h4,h5	{
+	font-family:algerian, zapfino, sans-serif;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a { color: #000; }
+a:visited { color: #666; }
+a:hover { color: #fff; background-color:#000; }
+
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+#container	{
+	width: 800px;
+	margin: 0 auto;
+	background-color:#f4f8ff;
+	border: 2px solid #fff;
+	background-image:url(/images/flare.png);
+	background-repeat:no-repeat;
+	padding: 10px;
+}
+
+h1	{
+	background:url(/images/header.png) top left no-repeat;
+	width: 800px;
+	height:100px;
+	margin-bottom: 20px;
+    font-size: 0px;
+}
+
+h2	{
+	font-size:26px;
+	color: #5d9fff;
+	width: 100%;
+	border-bottom: 2px solid #fff;
+	border-top: 2px solid #fff;
+	padding: 10px 0 10px 0;
+	margin: 0 0 10px 0;
+}
+
+
+
+img	{
+	border: 2px solid #fff;
+	margin: 0 auto;
+}
+

@@ -4,14 +4,20 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-  <title>Posts: <%= controller.action_name %></title>
-  <%= stylesheet_link_tag 'scaffold' %>
+  <title>Awesome Algerian</title>
+  <%= stylesheet_link_tag 'algerian' %>
 </head>
 <body>
+
+<div id="container">
+
+<h1>Awesome Algerian</h1>
 
 <p style="color: green"><%= flash[:notice] %></p>
 
 <%= yield  %>
+
+</div>
 
 </body>
 </html>
