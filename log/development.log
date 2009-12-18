@@ -2704,3 +2704,237 @@ Rendering template within layouts/posts
 Rendering posts/index
   [4;35;1mPost Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
 Completed in 24ms (View: 15, DB: 2) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 119.63.198.86 at 2009-12-17 10:15:07) [GET]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (124.0ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 273ms (View: 87, DB: 126) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.206.43.246 at 2009-12-17 15:58:07) [GET]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (2.7ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (3.1ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 83ms (View: 44, DB: 6) | 200 OK [http://awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-17 16:20:51) [GET]
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (6.4ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (8.1ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 113ms (View: 54, DB: 16) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-17 16:24:26) [GET]
+  [4;35;1mSQL (1.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.7ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 22ms (View: 12, DB: 4) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 61.135.169.32 at 2009-12-17 17:06:11) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 64ms (View: 38, DB: 3) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 66.249.68.164 at 2009-12-17 17:42:47) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.7ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 56ms (View: 33, DB: 2) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-17 18:00:21) [GET]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 40ms (View: 28, DB: 2) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-17 18:34:21) [GET]
+  [4;36;1mSQL (4.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (14.5ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 259ms (View: 212, DB: 20) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-17 18:36:33) [GET]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 22ms (View: 13, DB: 2) | 200 OK [http://awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-17 18:36:55) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 23ms (View: 12, DB: 4) | 200 OK [http://awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-17 18:38:06) [GET]
+  [4;35;1mSQL (2.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.7ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 22ms (View: 13, DB: 4) | 200 OK [http://awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-17 18:38:33) [GET]
+  [4;36;1mSQL (8.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (7.9ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (18.8ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 97ms (View: 61, DB: 35) | 200 OK [http://awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-17 18:42:17) [GET]
+  [4;35;1mSQL (0.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (6.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 28ms (View: 13, DB: 9) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-17 18:44:51) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 23ms (View: 13, DB: 2) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-17 18:45:28) [GET]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 20ms (View: 12, DB: 2) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-17 18:46:25) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 21ms (View: 12, DB: 2) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-17 18:46:47) [GET]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 118ms (View: 110, DB: 2) | 200 OK [http://awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-17 18:46:51) [GET]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 23ms (View: 14, DB: 2) | 200 OK [http://awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-17 18:47:43) [GET]
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 32ms (View: 16, DB: 3) | 200 OK [http://awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-17 18:49:34) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 21ms (View: 12, DB: 2) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-17 18:49:55) [GET]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.7ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 27ms (View: 17, DB: 3) | 200 OK [http://awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-17 18:50:16) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 23ms (View: 12, DB: 2) | 200 OK [http://awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-17 18:51:21) [GET]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (5.9ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 26ms (View: 12, DB: 7) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.206.199.191 at 2009-12-17 18:52:01) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 21ms (View: 11, DB: 2) | 200 OK [http://awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.59.130.32 at 2009-12-17 18:52:57) [GET]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 21ms (View: 12, DB: 2) | 200 OK [http://www.awesomealgerian.com/]
+
+
+Processing PostsController#index (for 203.206.199.191 at 2009-12-17 18:53:26) [GET]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.7ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (10.0ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 406ms (View: 388, DB: 12) | 200 OK [http://www.awesomealgerian.com/]

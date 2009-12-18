@@ -16,7 +16,8 @@ body, p, ol, ul, td {
 }
 
 h1,h2,h3,h4,h5	{
-	font-family:algerian, zapfino, sans-serif;
+	font-family:algerian, sans-serif;
+    font-weight: normal;
 }
 
 pre {
