@@ -3,14 +3,18 @@
     <h2><%=h post.title %></h2>
     <img src="<%=h post.image_url %>" />
     <p><%=h post.description %></p>
+    <% if current_user %>
     <p>
         <%= link_to 'Show', post %>
         <%= link_to 'Edit', edit_post_path(post) %>
         <%= link_to 'Delete', post, :confirm => 'Are you sure?', :method => :delete %>
     </p>
+    <% end %>
 </div>
 <% end %>
 
 <br />
 
+<% if current_user %>
 <%= link_to 'New post', new_post_path %>
+<% end %>
