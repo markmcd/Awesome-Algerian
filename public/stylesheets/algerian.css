@@ -66,7 +66,7 @@ a:hover { color: #fff; background-color:#000; }
   list-style: square;
 }
 
-#container	{
+#container,	#footer {
 	width: 800px;
 	margin: 0 auto;
 	background-color:#f4f8ff;
@@ -74,6 +74,10 @@ a:hover { color: #fff; background-color:#000; }
 	background-image:url(/images/flare.png);
 	background-repeat:no-repeat;
 	padding: 10px;
+}
+
+#footer {
+    text-align: right;
 }
 
 h1	{
