@@ -44,6 +44,8 @@ class PostsController < ApplicationController
   def create
     @post = Post.new(params[:post])
 
+    @post.update_attribute(:user_id, current_user.id)
+
     respond_to do |format|
       if @post.save
         flash[:notice] = 'Post was successfully created.'

@@ -107,3 +107,7 @@ img	{
     max-width: 795px;
 }
 
+.author {
+    width: 100%;
+    text-align: right;
+}
