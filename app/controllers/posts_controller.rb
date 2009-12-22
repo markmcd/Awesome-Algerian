@@ -32,6 +32,7 @@ class PostsController < ApplicationController
       format.html # new.html.erb
       format.xml  { render :xml => @post }
     end
+    make_rss
   end
 
   # GET /posts/1/edit
@@ -56,6 +57,7 @@ class PostsController < ApplicationController
         format.xml  { render :xml => @post.errors, :status => :unprocessable_entity }
       end
     end
+    make_rss
   end
 
   # PUT /posts/1
@@ -73,6 +75,7 @@ class PostsController < ApplicationController
         format.xml  { render :xml => @post.errors, :status => :unprocessable_entity }
       end
     end
+    make_rss
   end
 
   # DELETE /posts/1
@@ -84,6 +87,33 @@ class PostsController < ApplicationController
     respond_to do |format|
       format.html { redirect_to(posts_url) }
       format.xml  { head :ok }
+    end
+    make_rss
+  end
+
+  # http://rubyrss.com/
+  def make_rss
+    require 'rss/maker'
+    version = "2.0"
+    destination = "/home/thedji/algerian/public/feed/posts.xml"
+
+    content = RSS::Maker.make(version) do |m|
+      m.channel.title = "Awesome Algerian"
+      m.channel.link = "http://awesomealgerian.com"
+      m.channel.description = "The finest in Algerian"
+      m.items.do_sort = true
+  
+      Post.all.last(30).each {|p|
+        i = m.items.new_item
+        i.title = p.title
+        i.link = "http://awesomealgerian.com/posts/#{p.id}"
+        i.date = Time.parse("#{p.created_at}")
+        i.description = "<img src='#{p.image_url}'/>"
+      }
+    end
+
+    File.open(destination, "w") do |f|
+      f.write(content)
     end
   end
 end
