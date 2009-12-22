@@ -3,6 +3,8 @@ ActionController::Routing::Routes.draw do |map|
 
   map.connect 'login', :controller => "user_sessions", :action => "new"
   map.connect 'logout', :controller => "user_sessions", :action => "destroy"
+  map.connect 'register', :controller => "users", :action => "new"
+
   map.resource :user_session
 #  map.root :controller => "user_sessions", :action => "new" # optional, this just sets the root route
   map.root :controller => 'posts'
