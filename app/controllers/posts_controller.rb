@@ -108,6 +108,7 @@ class PostsController < ApplicationController
         i.title = p.title
         i.link = "http://awesomealgerian.com/posts/#{p.id}"
         i.date = Time.parse("#{p.created_at}")
+        i.author = p.user.login
         i.description = "<img src='#{p.image_url}'/><p>#{p.description}</p>"
       }
     end
