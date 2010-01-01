@@ -4,7 +4,7 @@ class PostsController < ApplicationController
   # GET /posts
   # GET /posts.xml
   def index
-    @posts = Post.find(:all)
+    @posts = Post.find(:all, :conditions => ['deleted != 1'])
 
     respond_to do |format|
       format.html # index.html.erb
@@ -15,7 +15,7 @@ class PostsController < ApplicationController
   # GET /posts/1
   # GET /posts/1.xml
   def show
-    @post = Post.find(params[:id])
+    @post = Post.find(:first, :conditions => ["id = ? AND deleted != 1", params[:id]])
 
     respond_to do |format|
       format.html # show.html.erb
@@ -82,7 +82,8 @@ class PostsController < ApplicationController
   # DELETE /posts/1.xml
   def destroy
     @post = Post.find(params[:id])
-    @post.destroy
+    @post.deleted = 1
+    @post.save
 
     respond_to do |format|
       format.html { redirect_to(posts_url) }
@@ -103,7 +104,7 @@ class PostsController < ApplicationController
       m.channel.description = "The finest in Algerian"
       m.items.do_sort = true
   
-      Post.all.last(30).each {|p|
+      Post.find(:all, :conditions => ['deleted != 1']).last(30).each {|p|
         i = m.items.new_item
         i.title = p.title
         i.link = "http://awesomealgerian.com/posts/#{p.id}"
