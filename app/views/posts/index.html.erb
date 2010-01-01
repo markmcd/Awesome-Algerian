@@ -2,8 +2,8 @@
 <div>
     <h2 class="typeface-js" style="font-family: Algerian"><%=h post.title %></h2>
     <img src="<%=h post.image_url %>" />
-    <div class="author">submitted by: <%=h post.user.login %></div>
     <p><%= post.description %></p>
+    <div class="author">submitted by: <%=h post.user.login %></div>
     <% if current_user %>
     <p>
         <%= link_to 'Edit', edit_post_path(post) %>
