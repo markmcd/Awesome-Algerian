@@ -6,7 +6,7 @@ Gem.path.push('/home/thedji/.gems')
 # Uncomment below to force Rails into production mode when
 # you don't control web/app server and can't set it the proper way
 # ENV['RAILS_ENV'] ||= 'production'
-RAILS_ENV = 'development'
+#RAILS_ENV = 'development'
 
 # Specifies gem version of Rails to use when vendor/rails is not present
 RAILS_GEM_VERSION = '2.2.2' unless defined? RAILS_GEM_VERSION
